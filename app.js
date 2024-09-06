@@ -39,7 +39,7 @@ dateSubmitButton.addEventListener("click", () =>
         {
             resultArea.innerHTML = `
                                         <br />
-                                        <h4>Access granted. Proceeding to website...</h4>
+                                        <h4>You are an adult. Proceeding to website...</h4>
                                         <br />
                                     `;
             setTimeout(() =>
@@ -57,7 +57,7 @@ dateSubmitButton.addEventListener("click", () =>
         {
             resultArea.innerHTML = `
                                         <br />
-                                        <h4>Access denied. Go boot up Roblox lil' bro.</h4>
+                                        <h4>You are a minor. Access denied.</h4>
                                         <br />
                                    `;
         }
