@@ -1,0 +1,177 @@
+body
+{
+    background-color: rgb(0, 0, 0) !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal
+{
+    background-color: rgba(0, 0, 0, 0.377);
+    padding-top: 200px;
+}
+
+.modal-content
+{
+    background-color: black !important;
+}
+
+.modal-title
+{
+    color: #ff9900;
+}
+
+.modal-body
+{
+    color: white;
+}
+
+.modal-footer
+{
+    color: white;
+}
+
+.resultArea
+{
+    color: white;
+}
+
+.page-content
+{
+    -webkit-filter: blur(20px);
+    color: white;
+    text-align: center;
+}
+
+.top-nav ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.top-nav li
+{
+    margin-left: 40px;
+    color: #969696;
+}
+
+.top-nav a
+{
+    all: unset;
+    cursor: pointer;
+}
+
+.nav-bar ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.nav-bar li
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nav-bar a
+{
+    all: unset;
+    cursor: pointer;
+}
+
+.nav-bar
+{
+    background-color: #0e0e0e;
+}
+
+.merch-advert
+{
+    padding-top: 10px;
+}
+
+.merch-advert a
+{
+    all: unset;
+    cursor: pointer;
+}
+
+.store-link
+{
+    background-color: #151515;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.goldText
+{
+    color: #ff9900;
+}
+
+.video-section
+{
+    padding-top: 20px;
+}
+
+.video-section ul
+{
+    display: flex;
+    list-style-type: none;
+}
+
+.video-section li
+{
+    margin-right: 20px;
+}
+
+.video-section img
+{
+    height: auto;
+    width: 2048px;
+}
+
+.footer-nav ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer-nav li
+{
+    margin-right: 10px;
+    background-color: #151515;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+.footer-nav a
+{
+    all: unset;
+    cursor: pointer;
+}
+
+.footer-secondary li
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.previousButton li
+{
+    background-color: #0e0e0e;
+    color: #2f2f2f;
+}
+
+.nextButton li
+{
+    background-color: #ff9900;
+    color: black;
+}
+
+.modal-backdrop-custom
+{
+    display: none !important;
+}
