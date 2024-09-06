@@ -68,7 +68,8 @@ dateSubmitButton.addEventListener("click", () =>
 document.addEventListener('DOMContentLoaded', function () 
 {
     // Initialize the Bootstrap modal
-    var pageLoadModal = new bootstrap.Modal(document.getElementById('pageLoadModal'));
+    let pageLoadModal = new bootstrap.Modal(document.getElementById('pageLoadModal'));
+
     // Show the modal when the page is fully loaded
     pageLoadModal.show();
 });
